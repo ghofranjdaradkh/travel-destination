@@ -1,0 +1,12 @@
+.Home img {
+   width: 20px; 
+   display: flex;
+   flex-flow: row wrap
+}
+.div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+
+}

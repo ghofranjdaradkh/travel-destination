@@ -1,0 +1,23 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script:wght@500&family=IBM+Plex+Serif:ital,wght@0,300;1,100&family=Kalam&family=Kaushan+Script&family=Rubik+Wet+Paint&family=Shantell+Sans&family=Slabo+27px&display=swap');
+
+.header{ margin: 0;
+    display: flex;
+    justify-content: center;
+    background: url(https://img.freepik.com/premium-photo/travel-world-monument-concept_117023-846.jpg?size=626&ext=jpg&ga=GA1.2.1231998062.1688973885&semt=ais);
+  background-size: contain;
+    padding-top: 48px;
+    width: auto;
+    height: 250px;
+    font-size: 60px;
+    color: blue;
+    font-family:  'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Kalam', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Rubik Wet Paint', cursive;
+    font-family: 'Shantell Sans', cursive;
+    font-family: 'Slabo 27px', serif;
+}
