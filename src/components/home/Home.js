@@ -1,19 +1,23 @@
-import Header from "../header/Header";
-import Footer from "../footer/ Footer"
+
 import Tours from "../tours/Tours"
-import db from '../../data/db.json';
+import data from "../../data/db.json"
 
 
 
-function Home() {
+
+function Home() { 
+ 
+
+
 
   return (
     <>
-      <Header />
+      
 
-      <Tours  data={db} />
+      <Tours  tour={data} /> 
+      {/* I pass aS props to the Tours */}
+     
 
-      <Footer />
 
     </>)
 }

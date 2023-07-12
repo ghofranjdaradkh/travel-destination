@@ -21,3 +21,14 @@
     font-family: 'Shantell Sans', cursive;
     font-family: 'Slabo 27px', serif;
 }
+
+
+.navBar{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  bottom: 150px;
+  float: right;
+}

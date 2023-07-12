@@ -1,12 +1,24 @@
-import"./Header.css";
+
+import "./Header.css";
+
+import Navbar from "../Navbar/Navbar";
+
+
+
+
+
 
 function Header() {
-    return(
+    return (
+        <>
+            <h1 className="header">
+                Travel Destination
+            </h1>
+            <Navbar className="navBar" />
 
-        <h1 className="header">
-Travel Destination       
- </h1>
+        </>
+
     )
-    
+
 }
 export default Header
