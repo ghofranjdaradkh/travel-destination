@@ -1,6 +1,5 @@
 
 import './Tours.css'
-// import TourDetails from "../TourDetails/TourDetails"
 import Tour from "./ tour/Tour"
 
 
