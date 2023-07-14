@@ -1,7 +1,4 @@
-// import './tour.css'
-
-import TourDetails from "../../TourDetails/TourDetails";
-
+import './Tour.css'
 import { Link } from "react-router-dom";
 
 
@@ -9,17 +6,18 @@ function Tour(props) {
   //I recived it as props then I map through data inside the Tours
   return (
     <>
-      
-      {props.tour.map((obj, i) => (
-        <div key={i} className="div">
-          <Link to={`/city/${obj.id}`}>
-            <h3>{obj.name}</h3>
-          </Link>
-          <img src={obj.image} alt={obj.alt} style={{ width: '500px', height: '500px' }} />
 
-        </div>
 
-      ))}
+      <div className="div">
+        <Link to={`/city/${props.tour.id}`} >
+          {/* make link when i click in the name or in the picture or can i wrap link just on the name */}
+          <h3>{props.tour.name}</h3>
+          <img src={props.tour.image} alt={props.tour.alt} style={{ width: '400px', height: '400px' }} />
+        </Link>
+
+      </div>
+
+
     </>
 
   );
